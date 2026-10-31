@@ -5,6 +5,7 @@ set -euo pipefail
 
 # Load .env if present; otherwise fall back to defaults
 if [[ -f ".env" ]]; then
+# rewrote this part
     # shellcheck disable=SC1091
     source ".env"
 fi
