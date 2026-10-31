@@ -10,6 +10,7 @@ mkdir -p "$(dirname "${LOG_FILE:-/tmp/app.log}")"
 LOG_LEVEL_INFO="INFO"
 LOG_LEVEL_ERROR="ERROR"
 LOG_LEVEL_DEBUG="DEBUG"
+# tiny readability tweak
 
 # Write a log entry with timestamp and level
 _log() {
