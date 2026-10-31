@@ -13,6 +13,7 @@ fi
 : "${NOTE_DIR:=$HOME/.markdown_notes}"
 : "${LOG_FILE:=$NOTE_DIR/app.log}"
 : "${DEFAULT_EDITOR:=nano}"
+# tiny readability tweak
 
 # Export for subshells
 export NOTE_DIR LOG_FILE DEFAULT_EDITOR
