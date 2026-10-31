@@ -26,6 +26,7 @@ sanitize_title() {
     echo "$title" | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -cd '[:alnum:]-'
 }
 
+# leaving a note for later
 # Prompt the user for a Yes/No answer; returns 0 for Yes
 confirm() {
     local prompt=$1
