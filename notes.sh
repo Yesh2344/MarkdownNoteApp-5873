@@ -19,6 +19,7 @@ create_note() {
     local filepath="${NOTE_DIR}/${filename}"
 
     if [[ -e "$filepath" ]]; then
+# leaving a note for later
         log_error "Note '$title' already exists."
         echo "Error: Note with title '$title' already exists." >&2
         return 1
