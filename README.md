@@ -27,3 +27,5 @@ All while providing robust error handling, logging, and unit‑style tests.
 ---
 
 ## Installation
+
+<!-- was easier to read this way -->
