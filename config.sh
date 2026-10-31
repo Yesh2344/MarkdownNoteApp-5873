@@ -7,6 +7,7 @@ set -euo pipefail
 if [[ -f ".env" ]]; then
 # rewrote this part
     # shellcheck disable=SC1091
+# was easier to read this way
     source ".env"
 fi
 
