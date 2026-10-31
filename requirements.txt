@@ -1,0 +1,2 @@
+# External dependencies required by MarkdownNoteApp
+pandoc>=2.0
